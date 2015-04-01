@@ -134,21 +134,12 @@ Das heißt ich belege im Zuge der Independent Coursework 2 den folgenden Anfäng
 \rhead{VERZEICHNISSE}
 \listoffigures
 \pagebreak
-\listoftables
+
 %\pagebreak
 \renewcommand{\lstlistlistingname}{Listing-Verzeichnis}
 {\labelsep2cm\lstlistoflistings}
 \pagebreak
 
-% ----------------------------------------------------------------------------------------------------------
-% Abkürzungen
-% ----------------------------------------------------------------------------------------------------------
-\section{Abkürzungsverzeichnis}
-\begin{acronym}[OSGi] % längste Abkürzung steht in eckigen Klammern
-	\setlength{\itemsep}{-\parsep} % geringerer Zeilenabstand
-	\acro{OSGi}{Open Service Gateway initiative}
-\end{acronym}
-\newpage
 
 % ----------------------------------------------------------------------------------------------------------
 % Inhalt
@@ -212,8 +203,28 @@ Er veranschaulicht gut wie verschiedene Activities in einander übergreifen, am 
 Die Qualität des Tons variiert in den verschiedenen Videos. Das stört mich nicht sehr, aber es fällt auf. Die Videos scheinen älter zu sein, zum Einem da er nur kurz Android Studio erwähnt und zum anderem nur ältere Systeme empfiehlt. 
 Er sagt, dass alle Emulatoren langsam sind. Das stimmt so nicht man kann sofern man Intel Kernel besitzt dem Emulator mit Hilfe des HAX Frameworks direkt auf der host CPU laufen lassen und muss nicht erst AMD Kerne emulieren, wodurch der Emulator signifikant schneller wird. Da der Tutor einen MAC verwendet fällt für ihn diese Option natürlich aus –weil keine Intel Kernel - aber das erwähnt er nicht einmal. 
 
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/dozent.png}
+	\captionof{figure}[Dr. Adam Porter Dozent der MOOCs]{Dr. Adam Porter Dozent der MOOCs\footnotemark }
+	\label{fig:osgi}
+\end{minipage}
+\footnotetext{Quelle: \url{https://www.coursera.org/}}
+
+\pagebreak
 \subsection{Reflektion Woche 0}
 Es war ein interessanter Einstieg, ich bin gespannt wie sich die nächsten Wochen entwickeln werden. 
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{Bilder/wochenplan.png}
+	\captionof{figure}[Übersicht des Beginner Cousera-Kurses]{Übersicht des Beginner Cousera-Kurses\footnotemark }
+	\label{fig:osgi}
+\end{minipage}
+\footnotetext{Quelle: \url{https://www.coursera.org/}}
+
 \pagebreak
 
 % ----------------------------------------------------------------------------------------------------------
@@ -232,6 +243,7 @@ Man kann alle Folien herunterladen und abspeichern, was späteres Nachsehen vere
 Es fällt wieder auf, dass die Tonqualität stark innerhalb der Videos schwankt. Dafür wird sehr detailliert der Code erklärt, was ich sehr vorteilhaft finde, da es sehr zum Verständnis beiträgt. 
 Interessant war die Info, dass jeder Thread einen eigenen Handler besitzt. Ich hatte etwas derartiges schon mal verwendet, wusste allerdings den Hintergrund dazu nicht (damals den Code einfach auf Stackoverflow gefunden). Auch das Prinzip des Loopers ist interessant – getMainloop() – habe ich schon mal verwendet, aber wie gesagt den Hintergrund dazu nicht gewusst. Manche Teile habe ich mehrfach angesehen, da ich nach einmaligem Sehen noch kein Verständnis aufgebaut hatte.
 Über die Handlerklasse die erläutert wurde, müsste es an sich auch möglich sein die „Spring for Android“ Asynctasks aus dem Praxisprojekt auf Fertigstellung der Aufgabe testen zu können. Ich frage mich, ob dies wohl effektiver wäre als unser aktueller Aufbau mit dem Ottobus. dieser liefert eine ähnliche Funktionalität, ist dafür aber eine zusätzliche Abhängigkeit. 
+
 Nun zum zweitem Teil – Networking. 
 Inhalt hierfür werden Sockets, HttpURLConnection und der AndroidHttpClient sein. Ich bin gespannt, ob diese eine bessere Funktionalität als Spring bieten – Entity Mapping – aber ehrlich gesagt bezweifle ich das.  Anscheinend muss man bei der Verwendung von Sockets zum einem den Header selbst erstellen, als auch den Response der nur als String geliefert wird selber decodieren. Das ist eine sehr unschöne Vorgehensweise, zumindest empfinde ich dies so. Die HttpURLConnection Klasse verhält sich grundlegend genauso und gefällt mir damit ebenfalls nicht. 
 Zum dem Quiz der Woche. 
@@ -240,6 +252,36 @@ Der Test selber setzt sich eigentlich nur aus den Fragen zusammen, welche auch s
 Nun werde ich zu dem Lab Teil übergehen, ich bin gespannt wie dieser sich gestaltet. Hier mache ich nur den aus dem Fortgeschrittenen Kurs, weil der aus dem Anfängerkurs ehr mit dem Aufsetzen der Umgebung zu tun hat. Wobei dieses dann auch noch veraltet ist und nicht einmal auf AndroidStudio basiert (was inzwischen schon Version 1.1 erreicht hat und damit nicht mehr im Alpha Stadium ist).
 Die Lab beinhaltet eine PDF mit den Anweisungen, diese sehen auf den ersten Blick sehr ausführlich aus. Der Code soll als Zip Hochgeladen werden und damit automatisiert getestet werden. Ich vermute, dass dort nur geprüft wird, was die vordefinierten Tests machen und danach entschieden wird. 
 Die Lab ist nach naherer Betrachtung ehr verwirrend als Lehrreich. Es wird zwar klar gesagt, was es leisten können soll, was soweit auch kein Problem ist. Kostete mich ca. 40 Minuten alles Wichtige umzusetzen. Allerdings soll von einer lokalen Datei Twitter Daten eingelesen werden. Diese Datei ist weder vorhanden, noch wird groß erläutert wo diese herkommen soll. Daher produziert mein AsyncTask nun bei jedem Ladeversuch eine Exception. Ich werde bei Gelegenheit mal in das Forum sehen, ob ich dort noch Infos bekomme zu der Abgabe. 
+
+\vspace{1em}
+\begin{lstlisting}[caption=OnCreate des DownloaderTaskFragment der ersten Lab, label=lst:DownloaderTaskFragment]
+@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		// Preserve across reconfigurations
+		setRetainInstance(true);
+		
+		// TODO: Create new DownloaderTask that "downloads" data
+        DownloaderTask asyncTask = new DownloaderTask();
+
+        	
+		// TODO: Retrieve arguments from DownloaderTaskFragment and where should them be ?
+		// Prepare them for use with DownloaderTask. 
+
+        Integer[] iarray = {0,1,2,3,4,5};
+
+        
+        
+		// TODO: Start the DownloaderTask 
+
+        asyncTask.execute(iarray);
+
+	}
+}
+\end{lstlisting}
+
+Hier ist das Vorgehen bei dem Bearbeiten der Labs dargestellt. Die "`TODO"' Elemente geben dabei Auskunft, was an welcher Stelle geleistet werden soll.
 
 \subsection{Donnerstag, 26. Februar 2015}
 Heute sind die neuen Kurse und Aufgaben freigegeben worden. Ich hatte die von Fortgeschrittenenkurs eigentlich erst zu 18:30 erwartet, dass ich als UTC-5 12.01 pm verstanden hatte aber anscheinend hält sich der Tutor nicht an diese Zeitangabe.
@@ -255,12 +297,30 @@ Auch die Infos zu mehreren Layouts sind sehr interessant, hier kann man angeben,
 Sehr gut ist ebenfalls, dass gute Informationen vermittelt werden, über das Überschreiben der onCreate Methode in der MainActivity – das ist der Startpunkt der App – detaillierte Beschreibung was dort warum abläuft. Gefällt mir sehr gut diese Vorgehensweise. 
 Der Anfängerkurs ist nicht ganz was ich erwartet hatte, es ist viel detaillierter und beschreibt mehr die Funktionen der einzelnen Codefragmente anstatt primitives Erstellen einer „Hallo Welt“ App. Gefällt mir sehr gut die Grundlagen auf diese Weise vermittelt zu bekommen. Es frischt mein bisher was ausschließliches Bücherwissen gut auf. 
 Der Zweite Teil dreht sich um die Activity Class, ich bin gespannt was da an neuen Infos herauskommen wird. Der Activity Lifecycle (onCreate -> onStart -> onResume -> onPause -> onStop -> onDestroy) trägt wirklich gut zum Verständnis bei. So tiefgehend hatte ich mir das noch gar nicht angesehen. 
+
+\vspace{1em}
+\begin{lstlisting}[caption=Activity Lifecycle Beispiel, label=lst:Activity Lifecycle]
+@Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        // TODO:
+        // Save state information with a collection of key-value pairs
+        // 4 lines of code, one for every count variable
+        savedInstanceState.putInt(RESTART_KEY, mRestart);
+        savedInstanceState.putInt(RESUME_KEY, mResume);
+        savedInstanceState.putInt(START_KEY, mStart);
+        savedInstanceState.putInt(CREATE_KEY, mCreate);
+
+    }
+\end{lstlisting}
+
 Eine gute Info war, dass man aufgrund des lifecycles und der Möglichkeit von Android bei „low memory“ Applikationen einfachen zu „killen“, ohne die onDestroy Methode aufzurufen und daher wichtige Aktionen – wie speichern - bei der onPause Methode ausführen sollte. Kann man auch als ein Final ansehen wie bei einem „Try Catch“ Block wie es scheint. Nun kommt er zu dem Teil der auch mir schon bekannt ist – das Intent-System von Android – HAX Beschleunigung. Diese Thematik kommt in meinen Augen recht spät. War aber auch ehr eine nette Zusammenfassung, daher nichts Neues für mich. 
 Nun gehe ich zu dem wöchentlichen Quiz des Kurses über. Zum Beantworten musste man sogar relativ viel nachdenken, finde ich gut. Allerdings wird nicht überall gesagt, was die richtige Antwort ist das ich schade finde, weil es mir an manchen Stellen noch immer unklar ist. 
 Nun zum Praktischen Teil und da er seine Sourcen mit Eclipse erstellt hat und ohne Gradle muss ich jedes Mal alle Projekte in diese Form setzen und das verursacht einen gewaltigen Konfigurationsaufwand. 
 Aber dank Stackoverflow habe ich es dennoch anbekommen. Es kostete micht etwa 30 Minuten Aufwand bis ich die Lab lauffähig bekommen hatte.  Also viel Zeitaufwand bevor die eigentliche Aufgabe begonnen werden konnte. 
 Die Übung an sich war lehrreich und unterhaltsam, also sehr gut gemacht und ist ebenfalls lauffähig auf meinem Emulator dank Gradle. 
 Nach Abschluss kann ich sagen, es war doch eine lehrreiche Übung über den Activity Lifecycle. 
+
+
 
 \subsection{Samstag, 28. Februar 2015}
 Heute werde ich mich mit dem fortgeschrittenen Kurs für diese Woche beschäftigen. Thematik für heute sind User Notifikation, der BroadcastReceiver, sowie Alarms. Ich bin gespannt was dort so Neues vorgestellt wird. 
@@ -326,6 +386,47 @@ Mit Hilfe von Steckoverflow war die Lab schnell gemacht und sehr lehrreich. Zude
 
 Die Abgaben scheinen meistens Fehlzuschlagen. Ich weiß nicht ob es an meinen Sourcen liegt, oder an der IDE die das ganze überprüft, aber seine zur Verfügung gestellten Testcases scheinen nie zu funktionieren. Beispiel die Antwort auf meine Abgabe des Intent Projektes: „Can't connect to activity manager; is the system running?“.Es ist unklar ob es daran liegt, dass er Eclipse anstatt Android Studio verwendet, aber ich werde nicht wechseln. Eclipse als IDE für Android ist nie aus dem Beta Stadium herausgekommen ist und ziemlich Fehlerhaft. Aber gut ich strebe nicht an des Endexamen zu machen (da es \$90 kostet und mir im Endeffekt nichts nützt), daher mache ich die Labs weiter, da sie als Übungen sehr gut sind. Außerdem auch wenn die Abgaben immer fehlschlagen, sieht man auf einen Blick welche Teile man schon bearbeitet hat. 
 
+\vspace{1em}
+\begin{lstlisting}[caption=Android Mainfest mit TODO der Lab, label=lst:Android Manifest]
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.labs.permissionslab"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <!--  TODO - add uses-permission elements -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityLoaderActivity"
+            android:label="@string/title_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BookmarksActivity"
+            android:label="@string/title_permissions"></activity>
+        <activity
+            android:name=".GoToDangerousActivity"
+            android:label="@string/title_activity_customization"></activity>
+    </application>
+
+</manifest>
+\end{lstlisting}
+
+
 \subsection{Sonntag, 8. März 2015}
 Heute versuche ich mich an der Woche 3 des fortgeschrittenen Kurses für Android. Wenn ich es heute schaffe es abzuschließen, habe ich damit auch das Ziel für diese Woche erreicht. 
 Die heutige Lektion dreht sich um Grafik und Animation, Touch und Gesten, sowie Multimedia. 
@@ -375,6 +476,15 @@ Das Quiz war interessant, es referenzierte oft zur API und man musste Informatio
 Diesmal gibt es zwei Labs zum Bearbeiten, ich bin gespannt was diese thematisch alles abdecken werden. 
 Die erste Lab dreht sich komplett um User Interfaces und der Erstellung dieser. Nach erster Einsicht ist es recht unklar, was genau in der Lab gemacht werden soll. Es scheint recht zeitaufwendig zu werden, alle Aspekte zu erfüllen. Nach 1.5 Stunden habe ich noch immer nicht komplett die erste Lab geschafft. Was weniger an der Komplexität liegt, sondern daran zu verstehen, was an welcher Stelle von einem erwartet wird. Aber gut den Lernenden das selber rausfinden zu lassen hat sicherlich auch seinen Lerneffekt. Nach etwa 2,5 Stunden war ich fertig mit der ersten Lab. Diese war auf jeden Fall recht aufwendig, aber auch lehrreicher als die meisten anderen Labs. 
 Die zweite Lab werde ich an einem anderem Tag beginnen. 
+
+\vspace{1em}
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{Bilder/bewertung.png}
+	\captionof{figure}[Bewertung der Labs der Woche 3]{Bewertung der Labs der Woche 3\footnotemark }
+	\label{fig:osgi}
+\end{minipage}
+\footnotetext{Quelle: \url{https://www.coursera.org/}}
 
 \subsection{Samstag, 14. März 2015}
 

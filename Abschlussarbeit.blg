@@ -1,6 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Abschlussarbeit.aux
-The style file: myalpha.bst
-Database file #1: bibo.bib
-Warning--entry type for "online" isn't style-file defined
---line 8 of file bibo.bib
-(There was 1 warning)
+I found no \citation commands---while reading file Abschlussarbeit.aux
+I found no \bibdata command---while reading file Abschlussarbeit.aux
+I found no \bibstyle command---while reading file Abschlussarbeit.aux
+(There were 3 error messages)
