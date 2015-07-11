@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1562
-NormalPos.bottom=619
+NormalPos.bottom=562
 Class=LaTeXView
 Document=Abschlussarbeit.tex
 
 [Frame0_View0,0]
-TopLine=521
-Cursor=35433
+TopLine=923
+Cursor=73068
 
 [SessionInfo]
 FrameCount=1
