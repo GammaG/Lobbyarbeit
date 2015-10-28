@@ -1,42 +1,10 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {I}Kurzfassung}{I}{section.I}
 \contentsline {section}{II \hspace {0.35em}Inhaltsverzeichnis}{II}{section*.1}
-\contentsline {section}{\numberline {III}Abbildungsverzeichnis}{IV}{section.III}
-\contentsline {section}{\numberline {IV}Listing-Verzeichnis}{V}{section.IV}
+\contentsline {section}{\numberline {III}Abbildungsverzeichnis}{III}{section.III}
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {section}{\numberline {2}Woche 0}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Ziele f\IeC {\"u}r Woche 0}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Sonntag, 22. Februar 2015}{2}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Reflektion Woche 0}{4}{subsection.2.3}
-\contentsline {section}{\numberline {3}Woche 1}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Ziele der Woche 1}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dienstag, 24. Februar 2015}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Donnerstag, 26. Februar 2015}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Samstag, 28. Februar 2015}{9}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Reflektion Woche 1 }{10}{subsection.3.5}
-\contentsline {section}{\numberline {4}Woche 2}{11}{section.4}
-\contentsline {subsection}{\numberline {4.1}Ziele f\IeC {\"u}r Woche 2 }{11}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Dienstag, 3. M\IeC {\"a}rz 2015}{11}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Donnerstag, 5. M\IeC {\"a}rz 2015}{11}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Sonntag, 8. M\IeC {\"a}rz 2015}{15}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Reflektion der Woche 2}{16}{subsection.4.5}
-\contentsline {section}{\numberline {5}Woche 3}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Ziele der Woche 3}{17}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Dienstag, 10. M\IeC {\"a}rz 2015}{17}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Donnerstag, 12. M\IeC {\"a}rz 2015}{17}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Samstag, 14. M\IeC {\"a}rz 2015}{19}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Reflektion Woche 3}{21}{subsection.5.5}
-\contentsline {section}{\numberline {6}Woche 4}{22}{section.6}
-\contentsline {subsection}{\numberline {6.1}Ziele der Woche 4}{22}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Dienstag, 17. M\IeC {\"a}rz 2015}{22}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Mittwoch, 18. M\IeC {\"a}rz 2015}{22}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Reflektion der Woche 4}{23}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Fazit Android Kurse}{24}{subsection.6.5}
-\contentsline {section}{\numberline {7}Woche 5}{25}{section.7}
-\contentsline {subsection}{\numberline {7.1}Samstag, 04. Juli 2015}{26}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Sonntag, 05. Juli 2015}{28}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Montag, 06. Juli 2015}{29}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Dienstag, 07. Juli 2015}{29}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Mittwoch, 08. Juli 2015}{30}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Fazit JavaScript Kurs}{33}{subsection.7.6}
-\contentsline {section}{\numberline {8}Gesamt Fazit}{34}{section.8}
+\contentsline {section}{\numberline {2}Begriffskl\IeC {\"a}rung}{2}{section.2}
+\contentsline {section}{\numberline {3}\IeC {\"O}ffentlichkeitsarbeit in der Praxis}{3}{section.3}
+\contentsline {section}{\numberline {4}Reflektion zur \IeC {\"O}ffentlichkeitsarbeit}{6}{section.4}
+\contentsline {section}{\numberline {5}Fazit}{8}{section.5}
+\contentsline {section}{\numberline {6}Quellenverzeichnis}{9}{section.6}
