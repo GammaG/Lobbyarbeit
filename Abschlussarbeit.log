@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.5)  28 OCT 2015 11:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.5)  28 OCT 2015 13:04
 entering extended mode
 **Abschlussarbeit.tex
 (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.tex
@@ -688,53 +688,46 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 \c@hsize=\count143
 \c@envdp=\count144
 \d@envb=\dimen167
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip75
-\bibsep=\skip76
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count145
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip77
-\cftbeforetoctitleskip=\skip78
-\cftaftertoctitleskip=\skip79
-\cftbeforepartskip=\skip80
-\cftpartnumwidth=\skip81
-\cftpartindent=\skip82
-\cftbeforesecskip=\skip83
-\cftsecindent=\skip84
-\cftsecnumwidth=\skip85
-\cftbeforesubsecskip=\skip86
-\cftsubsecindent=\skip87
-\cftsubsecnumwidth=\skip88
-\cftbeforesubsubsecskip=\skip89
-\cftsubsubsecindent=\skip90
-\cftsubsubsecnumwidth=\skip91
-\cftbeforeparaskip=\skip92
-\cftparaindent=\skip93
-\cftparanumwidth=\skip94
-\cftbeforesubparaskip=\skip95
-\cftsubparaindent=\skip96
-\cftsubparanumwidth=\skip97
-\cftbeforeloftitleskip=\skip98
-\cftafterloftitleskip=\skip99
-\cftbeforefigskip=\skip100
-\cftfigindent=\skip101
-\cftfignumwidth=\skip102
-\cftbeforelottitleskip=\skip103
-\cftafterlottitleskip=\skip104
-\cftbeforetabskip=\skip105
-\cfttabindent=\skip106
-\cfttabnumwidth=\skip107
-\cftbeforesubfigskip=\skip108
-\cftsubfigindent=\skip109
-\cftsubfignumwidth=\skip110
-\cftbeforesubtabskip=\skip111
-\cftsubtabindent=\skip112
-\cftsubtabnumwidth=\skip113
+\cftparskip=\skip75
+\cftbeforetoctitleskip=\skip76
+\cftaftertoctitleskip=\skip77
+\cftbeforepartskip=\skip78
+\cftpartnumwidth=\skip79
+\cftpartindent=\skip80
+\cftbeforesecskip=\skip81
+\cftsecindent=\skip82
+\cftsecnumwidth=\skip83
+\cftbeforesubsecskip=\skip84
+\cftsubsecindent=\skip85
+\cftsubsecnumwidth=\skip86
+\cftbeforesubsubsecskip=\skip87
+\cftsubsubsecindent=\skip88
+\cftsubsubsecnumwidth=\skip89
+\cftbeforeparaskip=\skip90
+\cftparaindent=\skip91
+\cftparanumwidth=\skip92
+\cftbeforesubparaskip=\skip93
+\cftsubparaindent=\skip94
+\cftsubparanumwidth=\skip95
+\cftbeforeloftitleskip=\skip96
+\cftafterloftitleskip=\skip97
+\cftbeforefigskip=\skip98
+\cftfigindent=\skip99
+\cftfignumwidth=\skip100
+\cftbeforelottitleskip=\skip101
+\cftafterlottitleskip=\skip102
+\cftbeforetabskip=\skip103
+\cfttabindent=\skip104
+\cfttabnumwidth=\skip105
+\cftbeforesubfigskip=\skip106
+\cftsubfigindent=\skip107
+\cftsubfignumwidth=\skip108
+\cftbeforesubtabskip=\skip109
+\cftsubtabindent=\skip110
+\cftsubtabnumwidth=\skip111
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -786,15 +779,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen168
-\Hy@linkcounter=\count146
-\Hy@pagecounter=\count147
+\Hy@linkcounter=\count145
+\Hy@pagecounter=\count146
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count148
+\Hy@SavedSpaceFactor=\count147
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -807,14 +800,14 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count149
+\c@Hy@tempcnt=\count148
  ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen169
-\Fld@menulength=\count150
+\Fld@menulength=\count149
 \Field@Width=\dimen170
 \Fld@charsize=\dimen171
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -826,42 +819,42 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count151
-\c@Item=\count152
-\c@Hfootnote=\count153
+\Hy@abspage=\count150
+\c@Item=\count151
+\c@Hfootnote=\count152
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count154
-\c@bookmark@seq@number=\count155
+\Fld@listcount=\count153
+\c@bookmark@seq@number=\count154
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip114
+\Hy@SectionHShift=\skip112
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count156
+\lst@mode=\count155
 \lst@gtempboxa=\box37
 \lst@token=\toks30
-\lst@length=\count157
+\lst@length=\count156
 \lst@currlwidth=\dimen172
-\lst@column=\count158
-\lst@pos=\count159
+\lst@column=\count157
+\lst@pos=\count158
 \lst@lostspace=\dimen173
 \lst@width=\dimen174
-\lst@newlines=\count160
-\lst@lineno=\count161
+\lst@newlines=\count159
+\lst@lineno=\count160
 \lst@maxwidth=\dimen175
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count162
-\lst@skipnumbers=\count163
+\c@lstnumber=\count161
+\lst@skipnumbers=\count162
 \lst@framebox=\box38
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -1081,12 +1074,12 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 )
-Package hyperref Info: Option `unicode' set `false' on input line 45.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 45.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 45.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 45.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 45.
-Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+Package hyperref Info: Option `unicode' set `false' on input line 44.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 44.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 44.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 44.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 44.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
  (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.aux
 
 LaTeX Warning: Label `fig:osgi' multiply defined.
@@ -1095,32 +1088,32 @@ LaTeX Warning: Label `fig:osgi' multiply defined.
 LaTeX Warning: Label `fig:osgi' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
+\scratchcounter=\count163
 \scratchdimen=\dimen176
 \scratchbox=\box39
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count167
+\MPscratchCnt=\count166
 \MPscratchDim=\dimen177
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks32
 )
 *geometry* driver: auto-detecting
@@ -1165,34 +1158,34 @@ Package caption Info: listings package is loaded.
 Package caption Info: picins package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box40
-Package hyperref Info: Link coloring ON on input line 48.
+Package hyperref Info: Link coloring ON on input line 47.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count169
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.out)
 (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.out)
 \@outlinefile=\write4
-\c@lstlisting=\count171
+\c@lstlisting=\count170
  <Bilder/hs_os.jpg, id=39, 174.1707pt x 41.4348pt>
 File: Bilder/hs_os.jpg Graphic file (type jpg)
 
 <use Bilder/hs_os.jpg>
-Package pdftex.def Info: Bilder/hs_os.jpg used on input line 75.
+Package pdftex.def Info: Bilder/hs_os.jpg used on input line 74.
 (pdftex.def)             Requested size: 174.17027pt x 41.43468pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 92.
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 92.
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1202,88 +1195,90 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 arning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112 
+l.111 
        [1] (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.toc)
 \tf@toc=\write5
  [2]
 (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.lof)
 \tf@lof=\write6
  [3] [1] [2]
-<Bilder/bla1.png, id=82, 693.34032pt x 523.9575pt>
+<Bilder/bla1.png, id=91, 693.34032pt x 523.9575pt>
 File: Bilder/bla1.png Graphic file (type png)
  <use Bilder/bla1.png>
-Package pdftex.def Info: Bilder/bla1.png used on input line 203.
+Package pdftex.def Info: Bilder/bla1.png used on input line 201.
 (pdftex.def)             Requested size: 455.24411pt x 344.03815pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 204.
+(caption)                particular \caption on input line 202.
 See the caption package documentation for explanation.
 
-[3 <C:/Uni/10.Fm/Lobbyarbeit/Semesterarbeit/Bilder/bla1.png>] <Bilder/bla2.png, id=98, 688.07062pt x 508.90125pt>
+[3 <C:/Uni/10.Fm/Lobbyarbeit/Semesterarbeit/Bilder/bla1.png>] <Bilder/bla2.png, id=109, 688.07062pt x 508.90125pt>
 File: Bilder/bla2.png Graphic file (type png)
 
 <use Bilder/bla2.png>
-Package pdftex.def Info: Bilder/bla2.png used on input line 216.
+Package pdftex.def Info: Bilder/bla2.png used on input line 214.
 (pdftex.def)             Requested size: 455.24411pt x 336.69897pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 217.
+(caption)                particular \caption on input line 215.
 See the caption package documentation for explanation.
 
 [4 <C:/Uni/10.Fm/Lobbyarbeit/Semesterarbeit/Bilder/bla2.png>] [5]
-Overfull \hbox (32.15355pt too wide) in paragraph at lines 235--236
+Overfull \hbox (32.15355pt too wide) in paragraph at lines 233--234
 []\OT1/cmr/m/n/12 Es gibt in-zwi-schen ei-ge-ne Agen-tu-ren, wel-che als Gesch[]aftsmodell aus-schlie-lich das N[]aherb
 ringen
  []
 
-<Bilder/bla3.png, id=112, 651.18282pt x 499.11469pt>
+<Bilder/bla3.png, id=125, 651.18282pt x 499.11469pt>
 File: Bilder/bla3.png Graphic file (type png)
  <use Bilder/bla3.png>
-Package pdftex.def Info: Bilder/bla3.png used on input line 240.
+Package pdftex.def Info: Bilder/bla3.png used on input line 238.
 (pdftex.def)             Requested size: 455.24411pt x 348.94379pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 241.
+(caption)                particular \caption on input line 239.
 See the caption package documentation for explanation.
 
 [6] [7 <C:/Uni/10.Fm/Lobbyarbeit/Semesterarbeit/Bilder/bla3.png>] [8]
 (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 10.
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+[]\OT1/cmr/m/n/12 http://agentur-adverb.de/download/201412-verbandsstratege-digital-
+ []
 
 ) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (C:\Uni\10.Fm\Lobbyarbeit\Semesterarbeit\Abschlussarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `Abschlussarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: C53D80D442875BA3A8CFBC9157304D5D;505.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 13187 strings out of 493921
- 197250 string characters out of 3147283
- 361089 words of memory out of 3000000
- 16239 multiletter control sequences out of 15000+200000
- 13171 words of font info for 51 fonts, out of 3000000 for 9000
+ 12903 strings out of 493921
+ 193753 string characters out of 3147283
+ 355384 words of memory out of 3000000
+ 15948 multiletter control sequences out of 15000+200000
+ 13820 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 50i,13n,54p,1099b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,13n,54p,1105b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb>
-Output written on Abschlussarbeit.pdf (13 pages, 1313601 bytes).
+/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Abschlussarbeit.pdf (13 pages, 1339692 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

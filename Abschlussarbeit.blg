@@ -1,5 +1,19 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Abschlussarbeit.aux
 The style file: myalpha.bst
-I found no \citation commands---while reading file Abschlussarbeit.aux
 Database file #1: bibo.bib
-(There was 1 error message)
+Warning--entry type for "WIKIL" isn't style-file defined
+--line 1 of file bibo.bib
+Warning--entry type for "EIWP" isn't style-file defined
+--line 5 of file bibo.bib
+Warning--entry type for "DPRG" isn't style-file defined
+--line 9 of file bibo.bib
+Warning--entry type for "DPRGB" isn't style-file defined
+--line 13 of file bibo.bib
+Warning--entry type for "AAD" isn't style-file defined
+--line 17 of file bibo.bib
+Warning--to sort, need author or key in WIKIL
+Warning--to sort, need author or key in EIWP
+Warning--to sort, need author or key in DPRG
+Warning--to sort, need author or key in DPRGB
+Warning--to sort, need author or key in AAD
+(There were 10 warnings)
